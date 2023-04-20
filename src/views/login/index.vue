@@ -107,6 +107,7 @@ export default {
     },
     handleLogin() {
       this.$refs.loginForm.validate(valid => {
+        // 取登录表单
         if (valid) {
           this.loading = true
           this.$store.dispatch('user/login', this.loginForm).then(() => {
@@ -150,6 +151,7 @@ $cursor: #fff;
       background: transparent;
       border: 0px;
       -webkit-appearance: none;
+      appearance:none;
       border-radius: 0px;
       padding: 12px 5px 12px 15px;
       color: $light_gray;

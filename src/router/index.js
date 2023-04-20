@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 Vue.use(Router)
-
+// 定义路由
 /* Layout */
 import Layout from '@/layout'
 
